@@ -1,0 +1,164 @@
+Computer Networking Notes (Clean & Presentable)
+
+1. Benefits of Networking in a Company
+
+Monitoring of devices
+
+Centralized control
+
+Easy connection between devices
+
+Hardware and data sharing
+
+Main networking devices: Hub, Switch
+
+Media used: WiFi, Cable
+
+To connect more than 2 devices, networking devices are required
+
+2. Types of Networks
+
+a) LAN (Local Area Network)
+
+Covers small area (like home, office) up to 100 meters
+
+Uses networking devices to connect PCs
+
+Client sends request to the server; if valid, it is accepted
+
+Advantages
+
+Easy maintenance
+
+Faster communication
+
+Easy configuration
+
+Disadvantages
+
+Limited number of devices
+
+Connecting too many devices decreases performance
+
+b) CAN (Campus Area Network)
+
+Multiple LANs or group of LANs form a CAN
+
+Covers areas like college campus or office campus
+
+Example: LAN 1 + LAN 2 + LAN 3 → CAN
+
+c) MAN (Metropolitan Area Network)
+
+Covers a city (approx 100 km coverage)
+
+Supports data and voice communication
+
+Connects multiple campuses/areas within a city
+
+d) WAN (Wide Area Network)
+
+Unlimited coverage
+
+Connects worldwide using the Internet
+
+Depends on geographical conditions
+
+WAN = Combination of multiple MANs
+
+e) PAN (Personal Area Network)
+
+Used for personal devices using Bluetooth
+
+Coverage depends on Bluetooth version
+
+Connects devices like phone, laptop, earbuds
+
+f) SAN (Storage Area Network)
+
+Creates centralized storage for data backup
+
+Data can be retrieved whenever needed
+
+Helps recover files after data breach
+
+3. Network Topologies
+
+Topologies = Structure of how devices are connected
+
+Types:
+
+Physical Topology – actual physical layout
+
+Logical Topology – how data travels between devices
+
+a) Bus Topology
+
+Single backbone cable
+
+Terminators at both ends
+
+Max 30 devices
+
+200 meters long
+
+Communication Types:
+
+Broadcast: one-to-all
+
+Unicast: one-to-one
+
+Multicast: one-to-many (selected)
+
+Disadvantages:
+
+No privacy
+
+Data breach risk
+
+Uses Thinnet/Thicknet cables
+
+b) Star Topology
+
+Most popular
+
+All devices connected to a central device (Hub/Switch)
+
+Switch has replaced Hub
+
+Note: Hub always broadcasts → No privacy
+
+c) Ring Topology
+
+Devices connected in a circular loop
+
+Data flows in one direction (clockwise)
+
+Each computer acts as repeater
+
+If one device fails → entire network goes down
+
+Dual Ring:
+
+Two cables
+
+Primary ring (clockwise)
+
+Secondary ring (anti-clockwise)
+
+Backup used when main fails
+
+d) Mesh Topology
+
+Every device is connected to every other device
+
+Uses routing to find best communication path
+
+Commonly used in WAN for interconnecting LANs
+
+Types:
+
+Full Mesh → All connected to all
+
+Partial Mesh → Only required devices connected
+

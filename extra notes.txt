@@ -1,0 +1,18 @@
+🧠 EXTRA THEORY NOTES
+
+🔹 VLAN Definition
+
+VLANs are used to separate broadcast domains within a single switch for better security and traffic control.
+
+🔹 VLAN Membership
+
+Static VLAN — Ports are manually assigned.
+
+Dynamic VLAN — Devices automatically assigned based on MAC (using VMPS).
+
+🔹 VLAN Storage File
+
+Default file created → vlan.dat
+Check it using:
+
+Switch# show flash
