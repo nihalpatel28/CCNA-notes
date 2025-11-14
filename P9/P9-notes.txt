@@ -1,0 +1,7 @@
+🧩 PRACTICAL 9 — 3Switch-4PC-VLAN-Configuration-with-Trunk.pkt
+🔹 Objective:
+
+Understand the importance of trunking between switches.
+
+➡ Without trunking, VLANs cannot communicate between switches.
+➡ Trunking allows VLAN information to pass between switches.

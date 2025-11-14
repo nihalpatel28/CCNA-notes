@@ -1,0 +1,53 @@
+🧩 PRACTICAL 5 — VLAN.pkt
+🔹 Objective:
+
+Understand and configure basic VLANs.
+
+🧠 Concept:
+
+VLAN (Virtual LAN) is used to control broadcast domains and improve network security & flexibility.
+
+Each VLAN = separate broadcast domain.
+
+Advantages:
+
+Limits broadcast traffic
+
+Logical separation of departments
+
+Easier management and movement of users
+
+⚙️ Commands:
+enable
+show vlan
+configure terminal
+vlan 2
+name sales
+vlan 3
+name accounts
+exit
+show vlan
+
+🔹 Assigning VLAN to Ports
+configure terminal
+interface fa0/1
+switchport access vlan 2
+exit
+interface fa0/2
+switchport access vlan 3
+exit
+
+
+For multiple ports:
+
+interface range fa0/1-2
+switchport access vlan 2
+exit
+
+🧠 Extra Notes:
+
+VLAN database stored in file vlan.dat
+
+View it using:
+
+Switch# show flash

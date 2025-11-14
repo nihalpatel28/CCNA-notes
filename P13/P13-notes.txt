@@ -1,0 +1,27 @@
+🧩 PRACTICAL 13 — Encryption.pkt
+🔹 Objective:
+
+Secure router/switch by setting hostnames, passwords, and encrypting them.
+⚙️ Command Summary:
+1️⃣ Hostname
+Router(config)# hostname HPES
+
+2️⃣ Banner
+Router(config)# banner login "Welcome to HPES Router"
+Router(config)# banner motd "Authorized Access Only"
+
+3️⃣ Console Password
+Router(config)# line console 0
+Router(config-line)# password hpes
+Router(config-line)# login
+
+4️⃣ Enable Password / Secret
+Router(config)# enable password hpes
+Router(config)# service password-encryption
+Router(config)# no enable password hpes
+Router(config)# enable secret hpes
+
+5️⃣ Telnet Password
+Router(config)# line vty 0 4
+Router(config-line)# password hpes
+Router(config-line)# login

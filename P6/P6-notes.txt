@@ -1,0 +1,21 @@
+🧩 PRACTICAL 6 — VLAN2-with-VLAN2-configuration-without-trunk.pkt
+🔹 Objective:
+
+Configure VLAN on 2 switches without trunking.
+
+⚙️ Setup:
+
+4 PCs total (2 for VLAN 2, 2 for VLAN 3)
+
+Each switch has 2 PCs connected
+
+⚙️ Commands:
+Switch(config)# vlan 2
+Switch(config-vlan)# name sales
+Switch(config)# vlan 3
+Switch(config-vlan)# name accounts
+Switch(config)# interface fa0/1
+Switch(config-if)# switchport access vlan 2
+Switch(config-if)# exit
+Switch(config)# interface fa0/2
+Switch(config-if)# switchport access vlan 3

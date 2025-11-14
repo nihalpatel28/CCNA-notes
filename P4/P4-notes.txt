@@ -1,0 +1,4 @@
+🧩 PRACTICAL 4 — 2Client-1Switch-3Server-Configuration-HW.pkt
+
+✅ Same setup as Practical 3 — done as Homework.
+Focus on troubleshooting DNS or IP misconfiguration.

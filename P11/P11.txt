@@ -1,0 +1,25 @@
+🧩 PRACTICAL 11 — DHCP Configuration.pkt
+🔹 Objective:
+
+Automate IP address allocation using DHCP.
+
+⚙️ Steps:
+
+Configure DHCP service on server:
+
+Keep server IP static
+
+Define IP address range
+
+Define default gateway and DNS server
+
+On PCs → set IP configuration to DHCP (automatic)
+
+Check:
+
+ipconfig
+ping server_ip
+
+🧠 Notes:
+
+DHCP automatically assigns IPs → no need for manual configuration.

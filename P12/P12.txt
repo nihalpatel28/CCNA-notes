@@ -1,0 +1,14 @@
+🧩 PRACTICAL 12 — DHCP-WEBDEPLOYEMENT-connection.pkt
+🔹 Objective:
+
+Combine DHCP and web deployment.
+
+⚙️ Steps:
+
+Server 1: Configure DHCP
+
+Server 2: Configure HTTP (web deployment)
+
+Connect both to the same switch
+
+Clients get IPs dynamically and access the website deployed on another server.

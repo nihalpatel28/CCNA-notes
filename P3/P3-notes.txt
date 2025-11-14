@@ -1,0 +1,28 @@
+🧩 PRACTICAL 3 — 2Client-1Switch-3Server-Configuration.pkt
+🔹 Objective:
+
+Connect 2 clients and 3 servers through one switch and allow access from any client to any server.
+
+⚙️ Servers Used:
+
+abc.com
+
+xyz.com
+
+bit.com
+
+⚙️ Steps:
+
+Connect 2 PCs → 1 Switch → 3 Servers.
+
+Assign IP addresses manually.
+
+Configure DNS on each server for its respective domain name.
+
+On client PCs → set DNS IP as the server IP.
+
+Test access:
+
+ping abc.com
+ping xyz.com
+ping bit.com

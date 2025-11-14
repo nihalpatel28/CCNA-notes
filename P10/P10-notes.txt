@@ -1,0 +1,18 @@
+🧩 PRACTICAL 10 — Switch-Server-VLAN-Configuration.pkt
+🔹 Objective:
+
+Deploy websites and connect VLAN-based clients to VLAN-based servers.
+
+⚙️ Steps:
+
+Configure VLAN 2 and VLAN 3 on the switch.
+
+Connect servers accordingly:
+
+VLAN 2 → Server for Sales website
+
+VLAN 3 → Server for Accounts website
+
+Deploy each website using the server’s HTTP service.
+
+PCs in VLAN 2 access VLAN 2’s website; same for VLAN 3.

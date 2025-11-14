@@ -1,0 +1,32 @@
+🧩 PRACTICAL 1 — 3Floor-2Hub-1Switch.pkt
+🔹 Objective:
+
+Connect three floors, each having 2 hubs and 1 switch. Assign IPs and verify connectivity using ping.
+
+⚙️ Steps:
+
+Connect all floors using hubs and switches properly.
+
+Assign IP addresses to each PC in a logical network (e.g., 192.168.1.x, 192.168.2.x, etc.).
+
+Use Command Prompt to ping across floors to verify connection.
+
+If devices don’t respond, check cable type or interface shutdown status.
+
+🧠 Notes:
+
+Switch> → User mode
+
+Switch# → Privileged EXEC mode
+
+Switch(config)# → Global Configuration mode
+
+Commands:
+
+enable
+configure terminal
+hostname Floor1-Switch
+interface fa0/1
+no shutdown
+exit
+show ip interface brief

@@ -1,0 +1,12 @@
+🧩 PRACTICAL 7 — VLAN2-with-VLAN2-configuration.pkt
+🔹 Objective:
+
+Connect 2 VLAN switches using a trunk link.
+
+⚙️ Commands:
+Switch(config)# interface fa0/24
+Switch(config-if)# switchport mode trunk
+Switch(config-if)# switchport trunk allowed vlan all
+
+
+➡ This allows inter-VLAN communication between switches.

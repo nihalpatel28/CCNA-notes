@@ -1,0 +1,24 @@
+🧩 PRACTICAL 2 — SERVER-configuration-class.pkt
+🔹 Objective:
+
+Configure a server with a static IP and host a website accessible from client PCs.
+
+⚙️ Steps:
+
+Assign static IP to server.
+
+Configure DNS:
+
+Open Services → DNS on server.
+
+Turn DNS ON.
+
+Add domain name (e.g., abc.com) and map it to server IP.
+
+Save and close.
+
+From client PC:
+
+Open browser.
+
+Type the domain name (e.g., abc.com) → should open the hosted website.
